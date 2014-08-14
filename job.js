@@ -1,0 +1,67 @@
+var iFrequency = 10000; // expressed in miliseconds
+var myInterval = 0;
+
+// STARTS and Resets the loop if any
+function processinput() {
+    if(myInterval > 0) clearInterval(myInterval);  // stop
+    myInterval = setInterval( "createtitle()", iFrequency );  // run
+}
+
+//The main function
+function createtitle(e) {
+    var num1 = Math.floor(Math.random() * 8);
+    var num2 = Math.floor(Math.random() * 7);
+    var num3 = Math.floor(Math.random() * 5);
+    var num4 = Math.floor(Math.random() * 16);
+    var num5 = Math.floor(Math.random() * 2);   
+    var num6 = Math.floor(Math.random() * 20);   //grow this
+    var num7 = Math.floor(Math.random() * 2); 
+    var num8 = Math.floor(Math.random() * 9);  
+    var num9 = Math.floor(Math.random() * 6);   
+    var num10 = Math.floor(Math.random() * 11);                    
+    var titles1 = ["", "", "", "", "Chief", "Senior", "Principal", "Regional"];
+    var titles2 = ["Information", "Data", "Network", "IT", "Application", "Enterprise", "Cyber"];
+    var titles3 = ["Program", "Operations", "Risk", "Systems", "Assurance"];
+    var titles4 = ["Analyst", "Engineer", "Officer", "Specialist", "Manager", "Administrator", "Director", "Consultant", "Associate", "Architect", "Lead", "Auditor", "Strategist", "Investigator", "Advisor", "Evangelist"];
+    var companies1 = ["", "The"];
+    var companies2 = ["Synergistic", "Action", "Authentic", "Disintermdediated", "MindShared", "Out-of-The-Box", "Proactive", "Solutionizing", "Dynamic", "Intuition", "Frictionless", "Cultivated", "Leveraged", "Transparent", "Radar", "Maximized", "Efficient", "Impact", "Robust", "Meshed"];
+    var companies3 = ["", "Cyber"];
+    var companies4 = ["Solutions", "Labs", "Technologies", "Resources", "Group", "Studio", "Systems", "Institute", "Coalition"];
+    var companies5 = ["Inc", "LLC", "LTD", "", "", ""];
+    var rubentitle = ["QF9jaGFwMA==","3078636861703040676d61696c2e636f6d","abe7796b8eaa90cb8584c4bc5aef05cf","32616d72657365617263682e636f6d","c25hY2twYWNrbG9ja2JveA==","63726f7373206579656420736372697074696e67","qehzc","cG93ZXIgcG9pbnQgaW5qZWN0aW9u","in the loop!","CEO of my Laptop","Serious Business<br>Company XYZ"];
+    window.document.getElementById('title').innerHTML=titles1[num1] + " " + titles2[num2] + " Security " + titles3[num3] + " " + titles4[num4] + "<br>" + companies1[num5] + " " + companies2[num6] + " " + companies3[num7] + "Security " + companies4[num8] + " " + companies5[num9] + "<br><br>Ruben Alejandro<br>" + rubentitle[num10];
+    window.document.getElementById('title2').innerHTML=titles1[num1] + " " + titles2[num2] + " Security " + titles3[num3] + " " + titles4[num4] + "<br>" + companies1[num5] + " " + companies2[num6] + " " + companies3[num7] + "Security " + companies4[num8] + " " + companies5[num9] + "<br><br>Ruben Alejandro<br>" + rubentitle[num10];
+    window.document.getElementById('title3').innerHTML=titles1[num1] + " " + titles2[num2] + " Security " + titles3[num3] + " " + titles4[num4] + "<br>" + companies1[num5] + " " + companies2[num6] + " " + companies3[num7] + "Security " + companies4[num8] + " " + companies5[num9] + "<br><br>Ruben Alejandro<br>" + rubentitle[num10];
+    window.document.getElementById('title4').innerHTML=titles1[num1] + " " + titles2[num2] + " Security " + titles3[num3] + " " + titles4[num4] + "<br>" + companies1[num5] + " " + companies2[num6] + " " + companies3[num7] + "Security " + companies4[num8] + " " + companies5[num9] + "<br><br>Ruben Alejandro<br>" + rubentitle[num10];
+    window.document.getElementById('title5').innerHTML=titles1[num1] + " " + titles2[num2] + " Security " + titles3[num3] + " " + titles4[num4] + "<br>" + companies1[num5] + " " + companies2[num6] + " " + companies3[num7] + "Security " + companies4[num8] + " " + companies5[num9] + "<br><br>Ruben Alejandro<br>" + rubentitle[num10];
+    window.document.getElementById('title6').innerHTML=titles1[num1] + " " + titles2[num2] + " Security " + titles3[num3] + " " + titles4[num4] + "<br>" + companies1[num5] + " " + companies2[num6] + " " + companies3[num7] + "Security " + companies4[num8] + " " + companies5[num9] + "<br><br>Ruben Alejandro<br>" + rubentitle[num10];
+    window.document.getElementById('title7').innerHTML=titles1[num1] + " " + titles2[num2] + " Security " + titles3[num3] + " " + titles4[num4] + "<br>" + companies1[num5] + " " + companies2[num6] + " " + companies3[num7] + "Security " + companies4[num8] + " " + companies5[num9] + "<br><br>Ruben Alejandro<br>" + rubentitle[num10];
+    window.document.getElementById('title8').innerHTML=titles1[num1] + " " + titles2[num2] + " Security " + titles3[num3] + " " + titles4[num4] + "<br>" + companies1[num5] + " " + companies2[num6] + " " + companies3[num7] + "Security " + companies4[num8] + " " + companies5[num9] + "<br><br>Ruben Alejandro<br>" + rubentitle[num10];
+    window.document.getElementById('title9').innerHTML=titles1[num1] + " " + titles2[num2] + " Security " + titles3[num3] + " " + titles4[num4] + "<br>" + companies1[num5] + " " + companies2[num6] + " " + companies3[num7] + "Security " + companies4[num8] + " " + companies5[num9] + "<br><br>Ruben Alejandro<br>" + rubentitle[num10];
+    window.document.getElementById('title10').innerHTML=titles1[num1] + " " + titles2[num2] + " Security " + titles3[num3] + " " + titles4[num4] + "<br>" + companies1[num5] + " " + companies2[num6] + " " + companies3[num7] + "Security " + companies4[num8] + " " + companies5[num9] + "<br><br>Ruben Alejandro<br>" + rubentitle[num10];
+    window.document.getElementById('title11').innerHTML=titles1[num1] + " " + titles2[num2] + " Security " + titles3[num3] + " " + titles4[num4] + "<br>" + companies1[num5] + " " + companies2[num6] + " " + companies3[num7] + "Security " + companies4[num8] + " " + companies5[num9] + "<br><br>Ruben Alejandro<br>" + rubentitle[num10];
+    window.document.getElementById('title12').innerHTML=titles1[num1] + " " + titles2[num2] + " Security " + titles3[num3] + " " + titles4[num4] + "<br>" + companies1[num5] + " " + companies2[num6] + " " + companies3[num7] + "Security " + companies4[num8] + " " + companies5[num9] + "<br><br>Ruben Alejandro<br>" + rubentitle[num10];
+    window.document.getElementById('title13').innerHTML=titles1[num1] + " " + titles2[num2] + " Security " + titles3[num3] + " " + titles4[num4] + "<br>" + companies1[num5] + " " + companies2[num6] + " " + companies3[num7] + "Security " + companies4[num8] + " " + companies5[num9] + "<br><br>Ruben Alejandro<br>" + rubentitle[num10];
+    window.document.getElementById('title14').innerHTML=titles1[num1] + " " + titles2[num2] + " Security " + titles3[num3] + " " + titles4[num4] + "<br>" + companies1[num5] + " " + companies2[num6] + " " + companies3[num7] + "Security " + companies4[num8] + " " + companies5[num9] + "<br><br>Ruben Alejandro<br>" + rubentitle[num10];
+    window.document.getElementById('title15').innerHTML=titles1[num1] + " " + titles2[num2] + " Security " + titles3[num3] + " " + titles4[num4] + "<br>" + companies1[num5] + " " + companies2[num6] + " " + companies3[num7] + "Security " + companies4[num8] + " " + companies5[num9] + "<br><br>Ruben Alejandro<br>" + rubentitle[num10];
+    window.document.getElementById('title16').innerHTML=titles1[num1] + " " + titles2[num2] + " Security " + titles3[num3] + " " + titles4[num4] + "<br>" + companies1[num5] + " " + companies2[num6] + " " + companies3[num7] + "Security " + companies4[num8] + " " + companies5[num9] + "<br><br>Ruben Alejandro<br>" + rubentitle[num10];
+    window.document.getElementById('title17').innerHTML=titles1[num1] + " " + titles2[num2] + " Security " + titles3[num3] + " " + titles4[num4] + "<br>" + companies1[num5] + " " + companies2[num6] + " " + companies3[num7] + "Security " + companies4[num8] + " " + companies5[num9] + "<br><br>Ruben Alejandro<br>" + rubentitle[num10];
+    window.document.getElementById('title18').innerHTML=titles1[num1] + " " + titles2[num2] + " Security " + titles3[num3] + " " + titles4[num4] + "<br>" + companies1[num5] + " " + companies2[num6] + " " + companies3[num7] + "Security " + companies4[num8] + " " + companies5[num9] + "<br><br>Ruben Alejandro<br>" + rubentitle[num10];
+    window.document.getElementById('title19').innerHTML=titles1[num1] + " " + titles2[num2] + " Security " + titles3[num3] + " " + titles4[num4] + "<br>" + companies1[num5] + " " + companies2[num6] + " " + companies3[num7] + "Security " + companies4[num8] + " " + companies5[num9] + "<br><br>Ruben Alejandro<br>" + rubentitle[num10];
+    window.document.getElementById('title20').innerHTML=titles1[num1] + " " + titles2[num2] + " Security " + titles3[num3] + " " + titles4[num4] + "<br>" + companies1[num5] + " " + companies2[num6] + " " + companies3[num7] + "Security " + companies4[num8] + " " + companies5[num9] + "<br><br>Ruben Alejandro<br>" + rubentitle[num10];
+    window.document.getElementById('title21').innerHTML=titles1[num1] + " " + titles2[num2] + " Security " + titles3[num3] + " " + titles4[num4] + "<br>" + companies1[num5] + " " + companies2[num6] + " " + companies3[num7] + "Security " + companies4[num8] + " " + companies5[num9] + "<br><br>Ruben Alejandro<br>" + rubentitle[num10];
+    window.document.getElementById('title22').innerHTML=titles1[num1] + " " + titles2[num2] + " Security " + titles3[num3] + " " + titles4[num4] + "<br>" + companies1[num5] + " " + companies2[num6] + " " + companies3[num7] + "Security " + companies4[num8] + " " + companies5[num9] + "<br><br>Ruben Alejandro<br>" + rubentitle[num10];
+    window.document.getElementById('title23').innerHTML=titles1[num1] + " " + titles2[num2] + " Security " + titles3[num3] + " " + titles4[num4] + "<br>" + companies1[num5] + " " + companies2[num6] + " " + companies3[num7] + "Security " + companies4[num8] + " " + companies5[num9] + "<br><br>Ruben Alejandro<br>" + rubentitle[num10];
+    window.document.getElementById('title24').innerHTML=titles1[num1] + " " + titles2[num2] + " Security " + titles3[num3] + " " + titles4[num4] + "<br>" + companies1[num5] + " " + companies2[num6] + " " + companies3[num7] + "Security " + companies4[num8] + " " + companies5[num9] + "<br><br>Ruben Alejandro<br>" + rubentitle[num10];
+    window.document.getElementById('title25').innerHTML=titles1[num1] + " " + titles2[num2] + " Security " + titles3[num3] + " " + titles4[num4] + "<br>" + companies1[num5] + " " + companies2[num6] + " " + companies3[num7] + "Security " + companies4[num8] + " " + companies5[num9] + "<br><br>Ruben Alejandro<br>" + rubentitle[num10];
+    window.document.getElementById('title26').innerHTML=titles1[num1] + " " + titles2[num2] + " Security " + titles3[num3] + " " + titles4[num4] + "<br>" + companies1[num5] + " " + companies2[num6] + " " + companies3[num7] + "Security " + companies4[num8] + " " + companies5[num9] + "<br><br>Ruben Alejandro<br>" + rubentitle[num10];
+    window.document.getElementById('title27').innerHTML=titles1[num1] + " " + titles2[num2] + " Security " + titles3[num3] + " " + titles4[num4] + "<br>" + companies1[num5] + " " + companies2[num6] + " " + companies3[num7] + "Security " + companies4[num8] + " " + companies5[num9] + "<br><br>Ruben Alejandro<br>" + rubentitle[num10];
+    window.document.getElementById('title28').innerHTML=titles1[num1] + " " + titles2[num2] + " Security " + titles3[num3] + " " + titles4[num4] + "<br>" + companies1[num5] + " " + companies2[num6] + " " + companies3[num7] + "Security " + companies4[num8] + " " + companies5[num9] + "<br><br>Ruben Alejandro<br>" + rubentitle[num10];
+    window.document.getElementById('title29').innerHTML=titles1[num1] + " " + titles2[num2] + " Security " + titles3[num3] + " " + titles4[num4] + "<br>" + companies1[num5] + " " + companies2[num6] + " " + companies3[num7] + "Security " + companies4[num8] + " " + companies5[num9] + "<br><br>Ruben Alejandro<br>" + rubentitle[num10];
+    window.document.getElementById('title30').innerHTML=titles1[num1] + " " + titles2[num2] + " Security " + titles3[num3] + " " + titles4[num4] + "<br>" + companies1[num5] + " " + companies2[num6] + " " + companies3[num7] + "Security " + companies4[num8] + " " + companies5[num9] + "<br><br>Ruben Alejandro<br>" + rubentitle[num10];
+    window.document.getElementById('title31').innerHTML=titles1[num1] + " " + titles2[num2] + " Security " + titles3[num3] + " " + titles4[num4] + "<br>" + companies1[num5] + " " + companies2[num6] + " " + companies3[num7] + "Security " + companies4[num8] + " " + companies5[num9] + "<br><br>Ruben Alejandro<br>" + rubentitle[num10];
+    window.document.getElementById('title32').innerHTML=titles1[num1] + " " + titles2[num2] + " Security " + titles3[num3] + " " + titles4[num4] + "<br>" + companies1[num5] + " " + companies2[num6] + " " + companies3[num7] + "Security " + companies4[num8] + " " + companies5[num9] + "<br><br>Ruben Alejandro<br>" + rubentitle[num10];
+    window.document.getElementById('title33').innerHTML=titles1[num1] + " " + titles2[num2] + " Security " + titles3[num3] + " " + titles4[num4] + "<br>" + companies1[num5] + " " + companies2[num6] + " " + companies3[num7] + "Security " + companies4[num8] + " " + companies5[num9] + "<br><br>Ruben Alejandro<br>---------------------<br>QF9jaGFwMA==&3078636861703040676d61696c2e636f6d&abe7796b8eaa90cb8584c4bc5aef05cf&32616d72657365617263682e636f6d&c25hY2twYWNrbG9ja2JveA==&63726f7373206579656420736372697074696e67&qehzc&cG93ZXIgcG9pbnQgaW5qZWN0aW9u&in the loop!&CEO of my Laptop&Serious Business<br>Company XYZ";        
+    e.preventDefault();
+    return false;
+}

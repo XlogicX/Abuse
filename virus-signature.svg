@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.1"
+   width="674.62518"
+   height="425.97388"
+   id="svg2">
+  <defs
+     id="defs4" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(-27.425325,-35.621971)"
+     id="layer1">
+    <rect
+       width="224.25386"
+       height="53.538086"
+       rx="13.260643"
+       ry="8.8039484"
+       x="477.29666"
+       y="95.72097"
+       id="rect3824"
+       style="fill:#79ff95;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <text
+       x="488.4852"
+       y="137.79953"
+       id="text2985-4"
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"><tspan
+         x="488.4852"
+         y="137.79953"
+         id="tspan2987-8">01011000</tspan></text>
+    <rect
+       width="327.28943"
+       height="55.558392"
+       rx="13.260643"
+       ry="8.8039484"
+       x="374.26108"
+       y="36.121971"
+       id="rect3826"
+       style="fill:#79ff95;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <text
+       x="387.97372"
+       y="75.450005"
+       id="text3018"
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"><tspan
+         x="387.97372"
+         y="75.450005"
+         id="tspan3020">Virus Signature</tspan></text>
+    <rect
+       width="152.02287"
+       height="40.406097"
+       rx="13.260643"
+       ry="8.8039484"
+       x="30.955782"
+       y="208.55771"
+       id="rect3052"
+       style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:1.0459193;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <text
+       x="35.714279"
+       y="240.93361"
+       id="text3022"
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"><tspan
+         x="35.714279"
+         y="240.93361"
+         id="tspan3024">&quot;Virus&quot;</tspan></text>
+    <text
+       x="48.57143"
+       y="550.93359"
+       id="text3026"
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"><tspan
+         x="48.57143"
+         y="550.93359"
+         id="tspan3028" /></text>
+    <text
+       x="17.142857"
+       y="448.07648"
+       id="text3034"
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"><tspan
+         x="17.142857"
+         y="448.07648"
+         id="tspan3036" /></text>
+    <rect
+       width="646.49762"
+       height="205.06097"
+       rx="13.260643"
+       ry="8.8039484"
+       x="27.925325"
+       y="256.03488"
+       id="rect3822"
+       style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <rect
+       width="217.1828"
+       height="52.527931"
+       rx="13.260643"
+       ry="8.8039484"
+       x="242.43661"
+       y="257.37213"
+       id="rect3828"
+       style="fill:#79e9ff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <text
+       x="33.753456"
+       y="297.74219"
+       id="text3038"
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"><tspan
+         x="33.753456"
+         y="297.74219"
+         id="tspan3042">01000101 01011000 01010000 </tspan><tspan
+         x="33.753456"
+         y="347.74219"
+         id="tspan3046">01000101 01000011 01010100 </tspan><tspan
+         x="33.753456"
+         y="397.74219"
+         id="tspan3048">00100000 01010101 01010011 </tspan><tspan
+         x="33.753456"
+         y="447.74219"
+         id="tspan3050">00001010</tspan></text>
+    <path
+       d="m 479.82246,144.23504 c -94.95434,112.12694 -94.95434,112.12694 -94.95434,112.12694 l -9.09137,-18.18275 8.08122,19.1929 23.23351,-6.06092 0,0"
+       id="path3830"
+       style="fill:none;stroke:#ffeb00;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+  </g>
+</svg>
